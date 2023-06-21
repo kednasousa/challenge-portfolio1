@@ -1,0 +1,68 @@
+@import url(../variaveis.css);
+
+.formacao {
+	background: var(--bg-azul);
+}
+
+.formacao__conteudo {
+	display: flex;
+	flex-direction: column;
+	padding: 32px;
+	align-items: center;
+	margin: 0 152px;
+}
+
+.formacao__titulo {
+	font-weight: 700;
+	font-size: 2em;
+}
+
+.formacao__card {
+	display: flex;
+	gap: 1rem;
+	list-style: none;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.formacao__card-item {
+	display: flex;
+	flex-direction: column;
+}
+
+.formacao__card-subitem {
+	background: var(--branco);
+	width: 300px;
+	height: 286px;
+}
+
+.formacao__card-titulo {
+	font-size: 1.2em;
+	margin-top: .5rem;
+	font-weight: 700;
+}
+
+.formacao__card-subtitulo {
+	font-size: 1em;
+	font-weight: 500;
+	margin: 0;
+}
+
+.one {
+	background-image: url(../../img/one.png);
+}
+
+.alura{
+	background-image: url(../../img/alura2.svg);
+}
+
+.senac {
+	background-image: url(../../img/senac.png);
+}
+
+.one,
+.alura,
+.senac {
+	background-repeat: no-repeat;
+	background-position: center;
+}

@@ -1,0 +1,32 @@
+@import url(../variaveis.css);
+
+header {
+	background: var(--bg-cinza);
+}
+
+.header__container {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 152px;
+	padding: 2rem 0;
+}
+
+.header__titulo {
+	background: url(../../img/estrela.svg) no-repeat left center;
+	font-size: 1em;
+	padding-left: 2.1rem;
+}
+
+.header__menu {
+	display: flex;
+	gap: 2rem;
+	list-style: none;
+}
+
+.header__menu-item {
+	color: var(--letras);
+	font-size: 1em;
+	font-weight: 500;
+	text-decoration: none;
+}

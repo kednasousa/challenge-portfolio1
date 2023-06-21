@@ -1,0 +1,188 @@
+@import url(../variaveis.css);
+
+@media screen and (max-width: 768px) {
+	.menu {
+		display: none;
+	}
+
+	.header__container {
+		padding: 16px 32px;
+		gap: 10px;
+		margin: 0;
+	}
+
+	.apresentacao__conteudo {
+		margin: 0;
+		padding: 32px;
+		gap: 32px;
+	}
+
+	.apresentacao__conteudo-itens {
+		gap: 8px;
+	}
+
+	.apresentacao__titulo {
+		font-size: 22px;
+	}
+
+	.apresentacao__descricao {
+		font-size: 16px;
+	}
+
+	.apresentacao__imagem {
+		width: 146px;
+		height: 146px;
+		border-radius: 50%;
+	}
+
+	.sobreMim__conteudo {
+		margin: 0;
+		padding: 32px;
+	}
+
+	.sobreMim__titulo {
+		font-size: 22px;
+	}
+
+	.sobreMim__descricao {
+		font-size: 14px;
+		line-height: 16px;
+	}
+
+	.skills__conteudo {
+		margin: 0;
+		padding: 32px;
+	}
+
+	.skills__titulo {
+		font-size: 22px;
+	}
+
+	.skills__card {
+		gap: 32px;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.skills__card-item {
+		width: 224px;
+		height: 118px;
+	}
+
+	.html,
+	.css,
+	.javascript,
+	.react {
+		background-repeat: no-repeat;
+		background-position: left;
+		background-position-y: 80px;
+		background-position-x: 16px;
+	}
+
+	.hobbies__conteudo {
+		margin: 0;
+		padding: 32px;
+	}
+
+	.hobbies__titulo {
+		font-size: 22px;
+	}
+
+	.hobbies__card {
+		gap: 32px;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.hobbies__card-item {
+		width: 224px;
+		height: 118px;
+	}
+
+	.musica,
+	.serie,
+	.cozinhar,
+	.lerLivro {
+		background-repeat: no-repeat;
+		background-position: left;
+		background-position-y: 80px;
+		background-position-x: 16px;
+	}
+
+	.formacao__conteudo {
+		margin: 0;
+	}
+
+	.formacao__titulo {
+		font-size: 22px;
+	}
+
+	.formacao__card-subitem {
+		width: 224px;
+		height: 118px;
+	}
+
+	.formacao__card-titulo {
+		font-size: 1em;
+		font-weight: 700;
+	}
+
+	.formacao__card-subtitulo {
+		font-size: 14px;
+	}
+
+	.experiencia__conteudo {
+		margin: 0;
+		padding: 32px;
+		gap: 16px;
+	}
+
+	.experiencia__titulo {
+		font-size: 22px;
+	}
+
+	.experiencia__item {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.experiencia__imagem {
+		order: -1;
+	}
+
+	.contato__conteudo {
+		margin: 0;
+		padding: 32px;
+	}
+
+	.contato__imagem {
+		display: none;
+	}
+
+	.contato__conteudo-informacao {
+		gap: 8px;
+	}
+
+	.contato__input {
+		width: 704px;
+		height: 56px;
+	}
+
+	.contato__textarea {
+		width: 704px;
+		height: 133px;
+	}
+
+	.enviarMensagem {
+		width: 151px;
+		height: 45px;
+		font-size: 14px;
+	}
+	
+	.rodape {
+		margin: 0;
+	}
+
+
+}

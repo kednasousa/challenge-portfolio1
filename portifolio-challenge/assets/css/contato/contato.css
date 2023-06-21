@@ -1,0 +1,89 @@
+@import url(../variaveis.css);
+
+.contato {
+	background: var(--bg-azul);
+}
+
+.contato__conteudo {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	padding: 64px 0px;
+	justify-content: center;
+	margin: 0 152px;
+
+}
+
+.contato__imagem {
+	width: 464px;
+	height: 593px;
+}
+
+
+
+.contato__conteudo-informacao {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: .5rem;
+}
+
+.contato__titulo {
+	font-weight: 700;
+	font-size: 32px;
+}
+
+.contato__conteudo-texto {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+.contato__conteudo-item {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 2rem;
+}
+
+.email {
+	text-transform: lowercase;
+}
+
+.contato__input {
+	border: none;
+	display: flex;
+	gap: 8px;
+	width: 656px;
+	height: 56px;
+	align-items: center;
+	padding: 8px 12px;
+	border-radius: 4px;
+	color: var(--placeholder);
+	margin-top: 1rem;
+}
+
+.contato__textarea {
+	width: 656px;
+	height: 133px;
+	gap: 8px;
+	border-radius: 4px;
+	padding: 8px 12px;
+   border-radius: 4px;
+	color: var(--placeholder);
+	margin-top: 1rem;
+	resize: none;
+	border: none;
+	font-size: 1em;
+}
+
+.contato__input:focus, .contato__textarea:focus {
+	outline: none;
+	border-right: 3px solid var(--azul);
+	border-bottom: 3px solid var(--azul);
+}
+
+::placeholder {
+	font-size: 1.3em;
+	text-transform: none;
+}
