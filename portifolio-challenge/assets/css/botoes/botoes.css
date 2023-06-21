@@ -8,6 +8,7 @@
 	font-weight: 400;
 	border: 1px solid var(--azul);
 	cursor: pointer;
+	transition: background .3s ease;
 }
 
 .repositorio {
@@ -33,5 +34,5 @@
 	color: var(--branco);
 	width: 165px;
 	height: 51px;
-	margin-top: 25px;
+
 }
