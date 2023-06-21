@@ -215,7 +215,7 @@
 						<p class="contato__conteudo-texto">Quer entrar em contato comigo?<br />
 							Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
 					</div>
-					<div class="contato__conteudo-item">
+					<!-- <div class="contato__conteudo-item">
 						<form class="contato__formulario" action="/enviar-contato" method="POST">
 							<div class="contato__formulario-item">
 								<input class="contato__input" id="name" name="name" type="text" required placeholder="Nome">
@@ -228,7 +228,27 @@
 							</div>
 							<button class="botao enviarMensagem" type="submit">Enviar mensagem</button>
 						</form>
-					</div>
+					</div> -->
+
+					<form action="" class="formulario__container">
+						<div class="formulario__grupo">
+							<input class="input" type="text" name="name" id="name" autocomplete="off" required>
+							<span class="placeholder">Nome</span>
+						</div>
+						<div class="formulario__grupo">
+							<input class="input" type="email" name="email" id="email" required>
+							<span class="placeholder">E-mail</span>
+						</div>
+						<div class="formulario__grupo">
+							<input class="input" type="text" name="subject" id="subject" autocomplete="off" required>
+							<span class="placeholder">Assunto</span>
+						</div>
+						<div class="formulario__grupo">
+							<textarea class="mensagem" name="message" id="message" cols="30" rows="10" autocomplete="off" required></textarea>
+							<span class="placeholder">Mensagem</span>
+						</div>
+						<button class="botao enviarMensagem" type="submit">Enviar mensagem</button>
+					</form>
 				</div>
 			</div>
 		</section>

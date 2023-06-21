@@ -14,12 +14,13 @@
 
 }
 
+/* .contato__container {
+	gap: 8px;
+} */
 .contato__imagem {
 	width: 464px;
 	height: 593px;
 }
-
-
 
 .contato__conteudo-informacao {
 	display: flex;
@@ -37,8 +38,10 @@
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 19px;
+	margin-bottom: 25px;
 }
 
+/* 
 .contato__conteudo-item {
 	display: flex;
 	flex-direction: column;
@@ -86,4 +89,57 @@
 ::placeholder {
 	font-size: 1.3em;
 	text-transform: none;
+} */
+
+
+.input {
+	width: 100%;
+	height: 56px;
+	font-size: 18px;
+	padding-left: .5rem;
+	outline: none;
+	border-radius: 6px;
+	border: none;
+
+}
+
+.formulario__grupo {
+	margin-bottom: 1.5rem;
+	position: relative;
+}
+
+.mensagem {
+	width: 100%;
+	height: 133px;
+	font-size: 18px;
+	padding: 8px 12px;
+	outline: none;
+	resize: none;
+	border-radius: 6px;
+	border: none;
+}
+
+.placeholder {
+	position: absolute;
+	left: 5px;
+	top: 16px;
+	pointer-events: none;
+	transition: 0.5s;
+	opacity: .5s;
+}
+
+.input:focus ~ .placeholder,
+.mensagem:focus ~ .placeholder,
+.input:valid ~ .placeholder,
+.mensagem:valid ~ .placeholder {
+	transform: translateY(-35px);
+	font-size: 14px;
+	opacity: 1;
+}
+
+.input:focus,
+.mensagem:focus {
+	outline: none;
+	border-right: 3px solid var(--azul);
+	border-bottom: 3px solid var(--azul);
 }
