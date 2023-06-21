@@ -41,57 +41,6 @@
 	margin-bottom: 25px;
 }
 
-/* 
-.contato__conteudo-item {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	gap: 2rem;
-}
-
-.email {
-	text-transform: lowercase;
-}
-
-.contato__input {
-	border: none;
-	display: flex;
-	gap: 8px;
-	width: 656px;
-	height: 56px;
-	align-items: center;
-	padding: 8px 12px;
-	border-radius: 4px;
-	color: var(--placeholder);
-	margin-top: 1rem;
-}
-
-.contato__textarea {
-	width: 656px;
-	height: 133px;
-	gap: 8px;
-	border-radius: 4px;
-	padding: 8px 12px;
-   border-radius: 4px;
-	color: var(--placeholder);
-	margin-top: 1rem;
-	resize: none;
-	border: none;
-	font-size: 1em;
-}
-
-.contato__input:focus, .contato__textarea:focus {
-	outline: none;
-	border-right: 3px solid var(--azul);
-	border-bottom: 3px solid var(--azul);
-}
-
-::placeholder {
-	font-size: 1.3em;
-	text-transform: none;
-} */
-
-
 .input {
 	width: 100%;
 	height: 56px;
