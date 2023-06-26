@@ -1,0 +1,60 @@
+@import url(../variaveis.css);
+
+.hobbies {
+	background: var(--bg-cinza);
+}
+
+.hobbies__conteudo {
+	padding: 2rem 0;
+	margin: 0 152px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.hobbies__titulo {
+	font-weight: 700;
+	font-size: 2em;
+}
+
+.hobbies__card {
+	display: flex;
+	gap: 1rem;
+	list-style: none;
+	font-size: 1em;
+}
+
+.hobbies__card-item {
+	display: flex;
+	background: var(--branco);
+	align-items: flex-end;
+	padding: 1rem;
+	width: 176px;
+	height: 176px;
+}
+
+.musica {
+	background-image: url(../../img/fone.svg);
+}
+
+.serie {
+	background-image: url(../../img/tv.svg);
+}
+
+.cozinhar {
+	background-image: url(../../img/cozinhar.svg);
+}
+
+.lerLivro {
+	background-image: url(../../img/foto.svg);
+}
+
+.musica,
+.serie,
+.cozinhar,
+.lerLivro {
+	background-repeat: no-repeat;
+	background-position: left;
+	background-position-y: 140px;
+	background-position-x: 16px;
+}
